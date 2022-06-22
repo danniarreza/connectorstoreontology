@@ -1,1 +1,1 @@
-# connectorstoreontology
+# Connector Store Ontology
