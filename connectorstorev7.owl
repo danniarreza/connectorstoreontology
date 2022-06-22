@@ -500,12 +500,6 @@
     
 
 
-    <!-- http://www.clicksconnectorstore.org/utwente/ontology/Technology -->
-
-    <owl:Class rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Technology"/>
-    
-
-
     <!-- http://www.clicksconnectorstore.org/utwente/ontology/TrustedConnector -->
 
     <owl:Class rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/TrustedConnector">
