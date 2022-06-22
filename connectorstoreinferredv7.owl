@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.clicksconnectorstore.org/utwente/ontology#"
-     xml:base="http://www.clicksconnectorstore.org/utwente/ontology"
+<rdf:RDF xmlns="http://www.clicksconnectorstore.org/utwente/ontology/"
+     xml:base="http://www.clicksconnectorstore.org/utwente/ontology/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ontology="http://www.clicksconnectorstore.org/utwente/ontology/">
-    <owl:Ontology rdf:about="http://www.clicksconnectorstore.org/utwente/ontology">
+    <owl:Ontology rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/">
         <owl:versionIRI rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/1.0.0"/>
     </owl:Ontology>
     
@@ -525,10 +525,10 @@
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/SoftwareServiceProvider"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/SupportingIDSActor"/>
-        <ontology:offers rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECI business management solutions provide real-time visibility into every area of your operation, giving you smarter data so you can make informed business decisions, provide a seamless experience for your customers, and compete at a higher level.</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECi Software Solutions</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecisolutions.com/</ontology:companyURL>
+        <offers rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECI business management solutions provide real-time visibility into every area of your operation, giving you smarter data so you can make informed business decisions, provide a seamless experience for your customers, and compete at a higher level.</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECi Software Solutions</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecisolutions.com/</companyURL>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECI business management solutions provide real-time visibility into every area of your operation, giving you smarter data so you can make informed business decisions, provide a seamless experience for your customers, and compete at a higher level.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECi Software Solutions</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecisolutions.com/</rdfs:seeAlso>
@@ -540,8 +540,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Electronics_Industry">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IndustrySector"/>
-        <ontology:operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_-_Groep"/>
-        <ontology:specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_-_Groep"/>
+        <specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronics Industry</rdfs:label>
     </owl:NamedIndividual>
     
@@ -552,15 +552,15 @@
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Group">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreIDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
-        <ontology:operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
-        <ontology:owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
-        <ontology:uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Emons Group is a solid, family owned group of companies that has existed for over 75 years. We are a niche player in the European logistics market and focus on innovative and sustainable transport solutions, aimed at reducing overall logistics costs.
+        <operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
+        <owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
+        <uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Emons Group is a solid, family owned group of companies that has existed for over 75 years. We are a niche player in the European logistics market and focus on innovative and sustainable transport solutions, aimed at reducing overall logistics costs.
 
-From early on, the Emons Group has had a clear strategy from which the current specific niche products were developed. Our main focus is to develop innovative logistics and transport concepts, only with one goal: being the European market leader in the chosen niche markets.</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emons Group</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.emons.eu/</ontology:companyURL>
-        <ontology:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport Logistics</ontology:industry>
+From early on, the Emons Group has had a clear strategy from which the current specific niche products were developed. Our main focus is to develop innovative logistics and transport concepts, only with one goal: being the European market leader in the chosen niche markets.</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emons Group</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.emons.eu/</companyURL>
+        <industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport Logistics</industry>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Emons Group is a solid, family owned group of companies that has existed for over 75 years. We are a niche player in the European logistics market and focus on innovative and sustainable transport solutions, aimed at reducing overall logistics costs.
 
 From early on, the Emons Group has had a clear strategy from which the current specific niche products were developed. Our main focus is to develop innovative logistics and transport concepts, only with one goal: being the European market leader in the chosen niche markets.</rdfs:comment>
@@ -575,15 +575,15 @@ From early on, the Emons Group has had a clear strategy from which the current s
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataResource"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Resource"/>
-        <ontology:attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
-        <ontology:attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/notification_data_usage_pattern"/>
-        <ontology:catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
-        <ontology:ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Group"/>
-        <ontology:resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</ontology:resourceDescription>
-        <ontology:resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logistics</ontology:resourceKeyword>
-        <ontology:resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</ontology:resourceLanguage>
-        <ontology:resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emons Logistics Dataset</ontology:resourceName>
-        <ontology:resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</ontology:resourceURL>
+        <attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
+        <attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/notification_data_usage_pattern"/>
+        <catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Group"/>
+        <resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</resourceDescription>
+        <resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logistics</resourceKeyword>
+        <resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</resourceLanguage>
+        <resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emons Logistics Dataset</resourceName>
+        <resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</resourceURL>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emons Logistics Dataset</rdfs:label>
     </owl:NamedIndividual>
     
@@ -595,30 +595,30 @@ From early on, the Emons Group has had a clear strategy from which the current s
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/BaseConnector"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreConnector"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSConnector"/>
-        <ontology:catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
-        <ontology:catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_Glass_Dataset"/>
-        <ontology:offeredBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/ECI_Software_Solutions"/>
-        <ontology:specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Electronics_Industry"/>
-        <ontology:specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Steel_Industry"/>
-        <ontology:supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/connector_restricted_data_usage_pattern"/>
-        <ontology:supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/delete_after_interval_data_usage_pattern"/>
-        <ontology:supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/notification_data_usage_pattern"/>
-        <ontology:supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/use_not_more_than_n_times_data_usage_pattern"/>
-        <ontology:usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Metal"/>
-        <ontology:usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_-_Groep"/>
-        <ontology:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecisolutions.com/nl/gatewise/api/ids/data</ontology:accessURL>
-        <ontology:businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronics Industry</ontology:businessDomain>
-        <ontology:businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steel Industry</ontology:businessDomain>
-        <ontology:connectorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a manufacturing company you use many different software systems. Exchanging information between these systems is not possible just like that. Each system has its own “language”. This makes integration cumbersome and complex. Gatewise uses the Smart Connected Supplier Network (SCSN). This allows different IT systems to connect quickly and easily via one platform. This platform is Gatewise. Because this translation takes place within the platform and not locally, every supplier connects seamlessly and scalable with every customer who has an ERP system that is provided by ECI.</ontology:connectorDescription>
-        <ontology:connectorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECI Gatewise</ontology:connectorName>
-        <ontology:connectorURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecisolutions.com/nl/supply-chain-management/gatewise/</ontology:connectorURL>
-        <ontology:deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloud</ontology:deploymentContext>
-        <ontology:pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flat Rate</ontology:pricingModel>
-        <ontology:pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freemium</ontology:pricingModel>
-        <ontology:pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pay per User</ontology:pricingModel>
-        <ontology:standards rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDI4STEEL</ontology:standards>
-        <ontology:technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Java</ontology:technology>
-        <ontology:technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Java Spring Boot</ontology:technology>
+        <catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
+        <catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_Glass_Dataset"/>
+        <offeredBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/ECI_Software_Solutions"/>
+        <specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Electronics_Industry"/>
+        <specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Steel_Industry"/>
+        <supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/connector_restricted_data_usage_pattern"/>
+        <supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/delete_after_interval_data_usage_pattern"/>
+        <supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/notification_data_usage_pattern"/>
+        <supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/use_not_more_than_n_times_data_usage_pattern"/>
+        <usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Metal"/>
+        <usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_-_Groep"/>
+        <accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecisolutions.com/nl/gatewise/api/ids/data</accessURL>
+        <businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronics Industry</businessDomain>
+        <businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steel Industry</businessDomain>
+        <connectorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a manufacturing company you use many different software systems. Exchanging information between these systems is not possible just like that. Each system has its own “language”. This makes integration cumbersome and complex. Gatewise uses the Smart Connected Supplier Network (SCSN). This allows different IT systems to connect quickly and easily via one platform. This platform is Gatewise. Because this translation takes place within the platform and not locally, every supplier connects seamlessly and scalable with every customer who has an ERP system that is provided by ECI.</connectorDescription>
+        <connectorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECI Gatewise</connectorName>
+        <connectorURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ecisolutions.com/nl/supply-chain-management/gatewise/</connectorURL>
+        <deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloud</deploymentContext>
+        <pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flat Rate</pricingModel>
+        <pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freemium</pricingModel>
+        <pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pay per User</pricingModel>
+        <standards rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDI4STEEL</standards>
+        <technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Java</technology>
+        <technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Java Spring Boot</technology>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a manufacturing company you use many different software systems. Exchanging information between these systems is not possible just like that. Each system has its own “language”. This makes integration cumbersome and complex. Gatewise uses the Smart Connected Supplier Network (SCSN). This allows different IT systems to connect quickly and easily via one platform. This platform is Gatewise. Because this translation takes place within the platform and not locally, every supplier connects seamlessly and scalable with every customer who has an ERP system that is provided by ECI.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECI Gatewise</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ecisolutions.com/nl/supply-chain-management/gatewise/</rdfs:seeAlso>
@@ -630,8 +630,8 @@ From early on, the Emons Group has had a clear strategy from which the current s
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Glass_Industry">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IndustrySector"/>
-        <ontology:operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglas_B.V."/>
-        <ontology:specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglas_B.V."/>
+        <specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass Industry</rdfs:label>
     </owl:NamedIndividual>
     
@@ -642,15 +642,15 @@ From early on, the Emons Group has had a clear strategy from which the current s
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/HST_Groep">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreIDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
-        <ontology:operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
-        <ontology:owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Logistics_Dataset"/>
-        <ontology:uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Groep is an all-round logistics service provider based in Enschede. With us you will find a complete service package for transport and logistics under one roof. From (inter)national road transport and sea freight to air freight and warehousing. This enables us to make &apos;one stop shopping&apos; possible: a total logistics solution for our customers. More than 400 employees are happy to roll up their sleeves for you.
+        <operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
+        <owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Logistics_Dataset"/>
+        <uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Groep is an all-round logistics service provider based in Enschede. With us you will find a complete service package for transport and logistics under one roof. From (inter)national road transport and sea freight to air freight and warehousing. This enables us to make &apos;one stop shopping&apos; possible: a total logistics solution for our customers. More than 400 employees are happy to roll up their sleeves for you.
 
-Our story started in 1978. Three transport companies from Twente joined forces. Now we take care of complete logistics processes at home and abroad with more than 400 colleagues every day. Our range of services has been expanded considerably. Precisely because “doing it together”, personal attention and flexibility remain the common thread. With our partners we stand for a clear and well-arranged offer. Now and in the future.</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Groep</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hst.nl/</ontology:companyURL>
-        <ontology:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport Logistics</ontology:industry>
+Our story started in 1978. Three transport companies from Twente joined forces. Now we take care of complete logistics processes at home and abroad with more than 400 colleagues every day. Our range of services has been expanded considerably. Precisely because “doing it together”, personal attention and flexibility remain the common thread. With our partners we stand for a clear and well-arranged offer. Now and in the future.</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Groep</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hst.nl/</companyURL>
+        <industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport Logistics</industry>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Groep is an all-round logistics service provider based in Enschede. With us you will find a complete service package for transport and logistics under one roof. From (inter)national road transport and sea freight to air freight and warehousing. This enables us to make &apos;one stop shopping&apos; possible: a total logistics solution for our customers. More than 400 employees are happy to roll up their sleeves for you.
 
 Our story started in 1978. Three transport companies from Twente joined forces. Now we take care of complete logistics processes at home and abroad with more than 400 colleagues every day. Our range of services has been expanded considerably. Precisely because “doing it together”, personal attention and flexibility remain the common thread. With our partners we stand for a clear and well-arranged offer. Now and in the future.</rdfs:comment>
@@ -665,14 +665,14 @@ Our story started in 1978. Three transport companies from Twente joined forces. 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/HST_Logistics_Dataset">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataResource"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Resource"/>
-        <ontology:attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
-        <ontology:catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
-        <ontology:ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Groep"/>
-        <ontology:resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</ontology:resourceDescription>
-        <ontology:resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logistics</ontology:resourceKeyword>
-        <ontology:resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</ontology:resourceLanguage>
-        <ontology:resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Logistics Dataset</ontology:resourceName>
-        <ontology:resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</ontology:resourceURL>
+        <attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
+        <catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
+        <ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Groep"/>
+        <resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</resourceDescription>
+        <resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logistics</resourceKeyword>
+        <resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</resourceLanguage>
+        <resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Logistics Dataset</resourceName>
+        <resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</resourceURL>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HST Logistics Dataset</rdfs:label>
     </owl:NamedIndividual>
     
@@ -683,13 +683,13 @@ Our story started in 1978. Three transport companies from Twente joined forces. 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Metal">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreIDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
-        <ontology:operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Steel_Industry"/>
-        <ontology:owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
-        <ontology:uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Metal is a metalworking supplier with a focus on craftsmanship and service. Whether it concerns metalworking, sheet metal work or sheet metal processing; we always think along with our clients. We are only satisfied when we can deliver products of the best quality. That is why we always continue to invest in our machinery and our professionals. From welding steel to plate edges, from stainless steel to aluminum. Our experts are committed to delivering the best results for you!</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Metal</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://meijerbv.nl/</ontology:companyURL>
-        <ontology:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metal Industry</ontology:industry>
+        <operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Steel_Industry"/>
+        <owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
+        <uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Metal is a metalworking supplier with a focus on craftsmanship and service. Whether it concerns metalworking, sheet metal work or sheet metal processing; we always think along with our clients. We are only satisfied when we can deliver products of the best quality. That is why we always continue to invest in our machinery and our professionals. From welding steel to plate edges, from stainless steel to aluminum. Our experts are committed to delivering the best results for you!</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Metal</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://meijerbv.nl/</companyURL>
+        <industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metal Industry</industry>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Metal is a metalworking supplier with a focus on craftsmanship and service. Whether it concerns metalworking, sheet metal work or sheet metal processing; we always think along with our clients. We are only satisfied when we can deliver products of the best quality. That is why we always continue to invest in our machinery and our professionals. From welding steel to plate edges, from stainless steel to aluminum. Our experts are committed to delivering the best results for you!</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Metal</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://meijerbv.nl/</rdfs:seeAlso>
@@ -702,15 +702,15 @@ Our story started in 1978. Three transport companies from Twente joined forces. 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataResource"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Resource"/>
-        <ontology:attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/connector_restricted_data_usage_pattern"/>
-        <ontology:attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/delete_after_interval_data_usage_pattern"/>
-        <ontology:catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
-        <ontology:ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Metal"/>
-        <ontology:resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</ontology:resourceDescription>
-        <ontology:resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steel</ontology:resourceKeyword>
-        <ontology:resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</ontology:resourceLanguage>
-        <ontology:resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Steel Dataset</ontology:resourceName>
-        <ontology:resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</ontology:resourceURL>
+        <attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/connector_restricted_data_usage_pattern"/>
+        <attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/delete_after_interval_data_usage_pattern"/>
+        <catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Metal"/>
+        <resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</resourceDescription>
+        <resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steel</resourceKeyword>
+        <resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</resourceLanguage>
+        <resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Steel Dataset</resourceName>
+        <resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</resourceURL>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meijer Steel Dataset</rdfs:label>
     </owl:NamedIndividual>
     
@@ -720,8 +720,8 @@ Our story started in 1978. Three transport companies from Twente joined forces. 
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Steel_Industry">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IndustrySector"/>
-        <ontology:operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Metal"/>
-        <ontology:specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Metal"/>
+        <specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steel Industry</rdfs:label>
     </owl:NamedIndividual>
     
@@ -733,10 +733,10 @@ Our story started in 1978. Three transport companies from Twente joined forces. 
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/SoftwareServiceProvider"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/SupportingIDSActor"/>
-        <ontology:offers rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a Service provider on the SCSN network, we fulfill a role as Smart Industry ambassador. As a Smart Industry ambassador, we are happy to help companies with their exploration of the digitization of the chain in which they are active. More information can be found at smartindustry.nl</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplydrive B.V.</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.supplydrive.cloud/</ontology:companyURL>
+        <offers rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a Service provider on the SCSN network, we fulfill a role as Smart Industry ambassador. As a Smart Industry ambassador, we are happy to help companies with their exploration of the digitization of the chain in which they are active. More information can be found at smartindustry.nl</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplydrive B.V.</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.supplydrive.cloud/</companyURL>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a Service provider on the SCSN network, we fulfill a role as Smart Industry ambassador. As a Smart Industry ambassador, we are happy to help companies with their exploration of the digitization of the chain in which they are active. More information can be found at smartindustry.nl</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplydrive B.V.</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.supplydrive.cloud/</rdfs:seeAlso>
@@ -750,23 +750,23 @@ Our story started in 1978. Three transport companies from Twente joined forces. 
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/BaseConnector"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreConnector"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSConnector"/>
-        <ontology:catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Logistics_Dataset"/>
-        <ontology:offeredBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_B.V."/>
-        <ontology:specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
-        <ontology:supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
-        <ontology:usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Groep"/>
-        <ontology:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://supplydrive.cloud/api/ids/data</ontology:accessURL>
-        <ontology:businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport Logistics</ontology:businessDomain>
-        <ontology:connectorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital collaboration is one of the goals of Smart Industry. Collaboration between manufacturing companies, ICT suppliers, knowledge institutions and sector organizations is paramount in this. Yet it is not easy to link ICT systems between companies. Current practice shows that many companies solve this manually: employees manually type information from an order received into their own system. The partners of the Fieldlab Smart Connected Supplier Network are looking for solutions for this. For example, clear agreements are made about a common exchange language. This includes the exchange of orders, forecasts, TPDs/BOMs/drawings, invoices and logistics information. This creates clear agreements between service providers and &apos;1x connection of the entire chain digitally&apos; becomes the new reality. For more information, visit the SCSN site or contact us.</ontology:connectorDescription>
-        <ontology:connectorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplydrive</ontology:connectorName>
-        <ontology:connectorURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://supplydrive.cloud/downloads/</ontology:connectorURL>
-        <ontology:deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloud</ontology:deploymentContext>
-        <ontology:deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OnPremise</ontology:deploymentContext>
-        <ontology:pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pay per User</ontology:pricingModel>
-        <ontology:standards rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GS1</ontology:standards>
-        <ontology:technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apache ActiveMQ</ontology:technology>
-        <ontology:technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Python</ontology:technology>
-        <ontology:technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Python Django</ontology:technology>
+        <catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Logistics_Dataset"/>
+        <offeredBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_B.V."/>
+        <specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
+        <supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
+        <usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Groep"/>
+        <accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://supplydrive.cloud/api/ids/data</accessURL>
+        <businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport Logistics</businessDomain>
+        <connectorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital collaboration is one of the goals of Smart Industry. Collaboration between manufacturing companies, ICT suppliers, knowledge institutions and sector organizations is paramount in this. Yet it is not easy to link ICT systems between companies. Current practice shows that many companies solve this manually: employees manually type information from an order received into their own system. The partners of the Fieldlab Smart Connected Supplier Network are looking for solutions for this. For example, clear agreements are made about a common exchange language. This includes the exchange of orders, forecasts, TPDs/BOMs/drawings, invoices and logistics information. This creates clear agreements between service providers and &apos;1x connection of the entire chain digitally&apos; becomes the new reality. For more information, visit the SCSN site or contact us.</connectorDescription>
+        <connectorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplydrive</connectorName>
+        <connectorURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://supplydrive.cloud/downloads/</connectorURL>
+        <deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloud</deploymentContext>
+        <deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OnPremise</deploymentContext>
+        <pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pay per User</pricingModel>
+        <standards rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GS1</standards>
+        <technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apache ActiveMQ</technology>
+        <technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Python</technology>
+        <technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Python Django</technology>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital collaboration is one of the goals of Smart Industry. Collaboration between manufacturing companies, ICT suppliers, knowledge institutions and sector organizations is paramount in this. Yet it is not easy to link ICT systems between companies. Current practice shows that many companies solve this manually: employees manually type information from an order received into their own system. The partners of the Fieldlab Smart Connected Supplier Network are looking for solutions for this. For example, clear agreements are made about a common exchange language. This includes the exchange of orders, forecasts, TPDs/BOMs/drawings, invoices and logistics information. This creates clear agreements between service providers and &apos;1x connection of the entire chain digitally&apos; becomes the new reality. For more information, visit the SCSN site or contact us.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supplydrive</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://supplydrive.cloud/downloads/</rdfs:seeAlso>
@@ -780,30 +780,30 @@ Our story started in 1978. Three transport companies from Twente joined forces. 
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/BaseConnector"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreConnector"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSConnector"/>
-        <ontology:catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
-        <ontology:catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglass_Glass_Dataset"/>
-        <ontology:offeredBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Tradecloud_B.V."/>
-        <ontology:specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Glass_Industry"/>
-        <ontology:specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
-        <ontology:supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
-        <ontology:supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/notification_data_usage_pattern"/>
-        <ontology:usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Group"/>
-        <ontology:usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglas_B.V."/>
-        <ontology:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tradecloud1.com/api/ids/data</ontology:accessURL>
-        <ontology:businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass Industry</ontology:businessDomain>
-        <ontology:connectorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With Tradecloud One you lay the foundation for a self-managing supply chain that allows you to save costs and respond faster to changing market conditions. Many companies in the Dutch industry and trade already work with the platform to remove unnecessary administration from their operational purchasing process.
+        <catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
+        <catalog rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglass_Glass_Dataset"/>
+        <offeredBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Tradecloud_B.V."/>
+        <specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Glass_Industry"/>
+        <specializesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics"/>
+        <supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
+        <supports rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/notification_data_usage_pattern"/>
+        <usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Group"/>
+        <usedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglas_B.V."/>
+        <accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tradecloud1.com/api/ids/data</accessURL>
+        <businessDomain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass Industry</businessDomain>
+        <connectorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With Tradecloud One you lay the foundation for a self-managing supply chain that allows you to save costs and respond faster to changing market conditions. Many companies in the Dutch industry and trade already work with the platform to remove unnecessary administration from their operational purchasing process.
 
 The Tradecloud One platform makes it possible for buyers and suppliers to share real-time information about orders and deliveries via a Portal or EDI interface. This allows suppliers to respond more quickly to changes and increases delivery reliability. By communicating via one platform, everyone looks at the same information and fewer mistakes are made.
 
-Tradecloud is a standard platform with standard ERP connectors that you can use to get started quickly.</ontology:connectorDescription>
-        <ontology:connectorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TradeCloud</ontology:connectorName>
-        <ontology:connectorURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.tradecloud1.com/api/support</ontology:connectorURL>
-        <ontology:deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloud</ontology:deploymentContext>
-        <ontology:pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flat Rate</ontology:pricingModel>
-        <ontology:pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freemium</ontology:pricingModel>
-        <ontology:standards rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTM</ontology:standards>
-        <ontology:technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHP</ontology:technology>
-        <ontology:technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHP Magento</ontology:technology>
+Tradecloud is a standard platform with standard ERP connectors that you can use to get started quickly.</connectorDescription>
+        <connectorName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TradeCloud</connectorName>
+        <connectorURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.tradecloud1.com/api/support</connectorURL>
+        <deploymentContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloud</deploymentContext>
+        <pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flat Rate</pricingModel>
+        <pricingModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freemium</pricingModel>
+        <standards rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTM</standards>
+        <technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHP</technology>
+        <technology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHP Magento</technology>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With Tradecloud One you lay the foundation for a self-managing supply chain that allows you to save costs and respond faster to changing market conditions. Many companies in the Dutch industry and trade already work with the platform to remove unnecessary administration from their operational purchasing process.
 
 The Tradecloud One platform makes it possible for buyers and suppliers to share real-time information about orders and deliveries via a Portal or EDI interface. This allows suppliers to respond more quickly to changes and increases delivery reliability. By communicating via one platform, everyone looks at the same information and fewer mistakes are made.
@@ -821,10 +821,10 @@ Tradecloud is a standard platform with standard ERP connectors that you can use 
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/SoftwareServiceProvider"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/SupportingIDSActor"/>
-        <ontology:offers rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Growing companies in manufacturing, wholesale and retail face a rapidly changing market in which high response times, low overhead costs and a lot of flexibility are essential for survival. At the same time, sustainability is a necessity and there are enormous opportunities that (information) technologies offer for new business models and shortages in the labor market.</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tradecloud B.V.</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tradecloud1.com/nl/supply-chain-collaboration/</ontology:companyURL>
+        <offers rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Growing companies in manufacturing, wholesale and retail face a rapidly changing market in which high response times, low overhead costs and a lot of flexibility are essential for survival. At the same time, sustainability is a necessity and there are enormous opportunities that (information) technologies offer for new business models and shortages in the labor market.</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tradecloud B.V.</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tradecloud1.com/nl/supply-chain-collaboration/</companyURL>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Growing companies in manufacturing, wholesale and retail face a rapidly changing market in which high response times, low overhead costs and a lot of flexibility are essential for survival. At the same time, sustainability is a necessity and there are enormous opportunities that (information) technologies offer for new business models and shortages in the labor market.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tradecloud B.V.</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tradecloud1.com/nl/supply-chain-collaboration/</rdfs:seeAlso>
@@ -836,10 +836,10 @@ Tradecloud is a standard platform with standard ERP connectors that you can use 
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Transport_Logistics">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IndustrySector"/>
-        <ontology:operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Group"/>
-        <ontology:operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Groep"/>
-        <ontology:specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
-        <ontology:specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Group"/>
+        <operatedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Groep"/>
+        <specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
+        <specializedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport Logistics</rdfs:label>
     </owl:NamedIndividual>
     
@@ -850,13 +850,13 @@ Tradecloud is a standard platform with standard ERP connectors that you can use 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_-_Groep">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreIDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
-        <ontology:operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Electronics_Industry"/>
-        <ontology:owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_Glass_Dataset"/>
-        <ontology:uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal and involved, that&apos;s the best way to describe ourselves. We made time for each other from day one. And we still do. Because our people are the core of our success. Friendly colleagues, accessible management and a pleasant working environment characterize daily life at Van Egmond Groep. Our collaboration is about being there for each other, connecting and renewing . We offer this to our employees and receive it in return. Reliability and quality are therefore central to us. We celebrate individual and collective successes and do everything we can to foster collaboration between different teams and relationships.</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Egmond Groep</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.vanegmond.nl/</ontology:companyURL>
-        <ontology:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronics Industry</ontology:industry>
+        <operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Electronics_Industry"/>
+        <owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_Glass_Dataset"/>
+        <uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal and involved, that&apos;s the best way to describe ourselves. We made time for each other from day one. And we still do. Because our people are the core of our success. Friendly colleagues, accessible management and a pleasant working environment characterize daily life at Van Egmond Groep. Our collaboration is about being there for each other, connecting and renewing . We offer this to our employees and receive it in return. Reliability and quality are therefore central to us. We celebrate individual and collective successes and do everything we can to foster collaboration between different teams and relationships.</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Egmond Groep</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.vanegmond.nl/</companyURL>
+        <industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronics Industry</industry>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal and involved, that&apos;s the best way to describe ourselves. We made time for each other from day one. And we still do. Because our people are the core of our success. Friendly colleagues, accessible management and a pleasant working environment characterize daily life at Van Egmond Groep. Our collaboration is about being there for each other, connecting and renewing . We offer this to our employees and receive it in return. Reliability and quality are therefore central to us. We celebrate individual and collective successes and do everything we can to foster collaboration between different teams and relationships.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Egmond Groep</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.vanegmond.nl/</rdfs:seeAlso>
@@ -869,14 +869,14 @@ Tradecloud is a standard platform with standard ERP connectors that you can use 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_Glass_Dataset">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataResource"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Resource"/>
-        <ontology:attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/use_not_more_than_n_times_data_usage_pattern"/>
-        <ontology:catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
-        <ontology:ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_-_Groep"/>
-        <ontology:resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</ontology:resourceDescription>
-        <ontology:resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronics</ontology:resourceKeyword>
-        <ontology:resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</ontology:resourceLanguage>
-        <ontology:resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Egmond Electronics Dataset</ontology:resourceName>
-        <ontology:resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</ontology:resourceURL>
+        <attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/use_not_more_than_n_times_data_usage_pattern"/>
+        <catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_-_Groep"/>
+        <resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</resourceDescription>
+        <resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronics</resourceKeyword>
+        <resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</resourceLanguage>
+        <resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Egmond Electronics Dataset</resourceName>
+        <resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</resourceURL>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Egmond Electronics Dataset</rdfs:label>
     </owl:NamedIndividual>
     
@@ -887,17 +887,17 @@ Tradecloud is a standard platform with standard ERP connectors that you can use 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglas_B.V.">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/CoreIDSActor"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/IDSActor"/>
-        <ontology:operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Glass_Industry"/>
-        <ontology:owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglass_Glass_Dataset"/>
-        <ontology:uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
-        <ontology:companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglas is the new name for Glassolutions bv from June 18, 2021. With our new identity we like to propagate our ambitions and image for the future. We want to become the best independent glass partner and grow into a serious player on the European market.
+        <operatesIn rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Glass_Industry"/>
+        <owns rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglass_Glass_Dataset"/>
+        <uses rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <companyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglas is the new name for Glassolutions bv from June 18, 2021. With our new identity we like to propagate our ambitions and image for the future. We want to become the best independent glass partner and grow into a serious player on the European market.
 
 Our mission: to strengthen your competitive position. our knowledge of glass and the glass world provides our long-term business partners with clear, independent glass advice and glass solutions with high-quality products and services.
 
-Our asset: committed professionals who listen, observe, understand and turn challenges into success stories. We put our independence at the service of your success!</ontology:companyDescription>
-        <ontology:companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglas B.V.</ontology:companyName>
-        <ontology:companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vandaglas.com/</ontology:companyURL>
-        <ontology:industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass Industry</ontology:industry>
+Our asset: committed professionals who listen, observe, understand and turn challenges into success stories. We put our independence at the service of your success!</companyDescription>
+        <companyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglas B.V.</companyName>
+        <companyURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://vandaglas.com/</companyURL>
+        <industry rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass Industry</industry>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglas is the new name for Glassolutions bv from June 18, 2021. With our new identity we like to propagate our ambitions and image for the future. We want to become the best independent glass partner and grow into a serious player on the European market.
 
 Our mission: to strengthen your competitive position. our knowledge of glass and the glass world provides our long-term business partners with clear, independent glass advice and glass solutions with high-quality products and services.
@@ -914,14 +914,14 @@ Our asset: committed professionals who listen, observe, understand and turn chal
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglass_Glass_Dataset">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataResource"/>
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Resource"/>
-        <ontology:attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
-        <ontology:catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
-        <ontology:ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglas_B.V."/>
-        <ontology:resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</ontology:resourceDescription>
-        <ontology:resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass</ontology:resourceKeyword>
-        <ontology:resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</ontology:resourceLanguage>
-        <ontology:resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglass Glass Dataset</ontology:resourceName>
-        <ontology:resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</ontology:resourceURL>
+        <attachedWith rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern"/>
+        <catalogBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <ownedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglas_B.V."/>
+        <resourceDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</resourceDescription>
+        <resourceKeyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glass</resourceKeyword>
+        <resourceLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en-US</resourceLanguage>
+        <resourceName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglass Glass Dataset</resourceName>
+        <resourceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thisistheurl.com</resourceURL>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandaglass Glass Dataset</rdfs:label>
     </owl:NamedIndividual>
     
@@ -931,8 +931,8 @@ Our asset: committed professionals who listen, observe, understand and turn chal
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/connector_restricted_data_usage_pattern">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataUsageAgreement"/>
-        <ontology:attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
-        <ontology:supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
+        <supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allows data usage for a specific connector</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connector Restricted Data Usage Pattern</rdfs:label>
     </owl:NamedIndividual>
@@ -943,8 +943,8 @@ Our asset: committed professionals who listen, observe, understand and turn chal
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/delete_after_interval_data_usage_pattern">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataUsageAgreement"/>
-        <ontology:attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
-        <ontology:supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Meijer_Steel_Dataset"/>
+        <supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allows data usage within a specified time interval with the restriction to delete it at a specified time stamp</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delete After Interval Data Usage Pattern</rdfs:label>
     </owl:NamedIndividual>
@@ -955,11 +955,11 @@ Our asset: committed professionals who listen, observe, understand and turn chal
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/duration_data_usage_pattern">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataUsageAgreement"/>
-        <ontology:attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
-        <ontology:attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Logistics_Dataset"/>
-        <ontology:attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglass_Glass_Dataset"/>
-        <ontology:supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
-        <ontology:supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
+        <attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/HST_Logistics_Dataset"/>
+        <attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Vandaglass_Glass_Dataset"/>
+        <supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Supplydrive_IDS_Connector"/>
+        <supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allows data usage for a specified time period</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration Data Usage Pattern</rdfs:label>
     </owl:NamedIndividual>
@@ -970,9 +970,9 @@ Our asset: committed professionals who listen, observe, understand and turn chal
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/notification_data_usage_pattern">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataUsageAgreement"/>
-        <ontology:attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
-        <ontology:supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
-        <ontology:supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
+        <attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Emons_Logistics_Dataset"/>
+        <supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/TradeCloud_IDS_Connector"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allows data usage and sends notification message</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notification Data Usage Pattern</rdfs:label>
     </owl:NamedIndividual>
@@ -983,8 +983,8 @@ Our asset: committed professionals who listen, observe, understand and turn chal
 
     <owl:NamedIndividual rdf:about="http://www.clicksconnectorstore.org/utwente/ontology/use_not_more_than_n_times_data_usage_pattern">
         <rdf:type rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/DataUsageAgreement"/>
-        <ontology:attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_Glass_Dataset"/>
-        <ontology:supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
+        <attachesTo rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Van_Egmond_Glass_Dataset"/>
+        <supportedBy rdf:resource="http://www.clicksconnectorstore.org/utwente/ontology/Gatewise_IDS_Connector"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allows data usage for n times</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use Not More Than N Times Data Usage Pattern</rdfs:label>
     </owl:NamedIndividual>
