@@ -4,7 +4,7 @@ This is the repository for assets related to the prototype development of the Da
 
 # Contributing
 
-Huge credits are given to the contributors listed below who have provided their contributions to make this research project materialized:
+Huge credits are given to the contributors listed below who have provided their contributions to make this research project materialized: <br />
 Danniar Reza Firdausy <sup>a</sup> <br />
 Patrício de Alencar Silva <sup>b</sup> <br />
 Marten van Sinderen <sup>b</sup> <br />
