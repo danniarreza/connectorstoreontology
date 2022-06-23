@@ -2,6 +2,20 @@
 
 This is the repository for assets related to the prototype development of the Data Connector Store as part of the Connecting Logistics Interfaces, Converters, Knowledge and Standards (CLiCKS) project. This project operates on top of a consortium that consists of collaborators from University of Twente (UT), Netherlands Organisation for Applied Scientific Research (TNO), Stichting Uniforme Transport Code (SUTC), and eMagiz.
 
+# Prototype Information
+
+<b>Data Connector Store Prototype - Front-End Web Application</b>
+
+https://clicksconnectorstore-sandbox.mxapps.io
+
+<b>Data Connector Store Prototype - REST APIs</b>
+
+https://clicksconnectorstore-sandbox.mxapps.io/rest-doc/api
+
+<b>Data Connector Store Prototype - PLDN Triple Store</b>
+
+https://data.pldn.nl/danniar/-/queries
+
 # Contributing
 
 Huge credits are given to the contributors listed below who have provided their contributions to make this research project materialized: 
