@@ -4,6 +4,11 @@ This is the repository for assets related to the prototype development of the Da
 
 # Prototype Information
 
+<b>Data Connector Store Prototype - Infrastructure Viewpoint of the Data Connector Store</b>
+
+![Connector Store Internal Infrastructure Viewpoint v2](https://user-images.githubusercontent.com/30825334/175209018-375bec62-b789-4384-81c4-93be67495901.png)
+
+
 <b>Data Connector Store Prototype - Front-End Web Application</b>
 
 https://clicksconnectorstore-sandbox.mxapps.io
