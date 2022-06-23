@@ -20,7 +20,7 @@ https://data.pldn.nl/danniar/-/queries
 
 Huge credits are given to the contributors listed below who have provided their contributions to make this research project materialized: 
 <br /> <br />
-Danniar Reza Firdausy <sup>a</sup> <br />
+[Danniar Reza Firdausy](https://people.utwente.nl/d.r.firdausy) <sup>a</sup> <br />
 Patrício de Alencar Silva <sup>b,c</sup> <br />
 Marten van Sinderen <sup>b</sup> <br />
 Maria-Eugenia Iacob <sup>a</sup> <br />
