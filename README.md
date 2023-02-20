@@ -35,3 +35,12 @@ Huge credits are given to the contributors listed below who have provided their 
 <sup>b</sup> [Department of Services and CyberSecurity (SCS), University of Twente (UT)](https://www.utwente.nl/en/eemcs/scs/) <br /> 
 <sup>c</sup> [Graduate Program in Computer Science UERN/UFERSA Rio Grande do Norte State University (UERN) Federal University of the Semi-Arid Region (UFERSA)](https://englishversion.ufersa.edu.br/computer-science-2/) <br />
 <sup>d</sup> [Stichting Uniforme Transport Code (SUTC)](https://www.sutc.nl/en_US) <br />
+
+
+# Cite This Article:
+
+Firdausy, D.R., de Alencar Silva, P., van Sinderen, M., Iacob, ME. (2022). A Data Connector Store for International Data Spaces. In: Sellami, M., Ceravolo, P., Reijers, H.A., Gaaloul, W., Panetto, H. (eds) Cooperative Information Systems. CoopIS 2022. Lecture Notes in Computer Science, vol 13591. Springer, Cham. https://doi.org/10.1007/978-3-031-17834-4_14
+
+<b>Conference Proceedings</b>
+
+https://link.springer.com/chapter/10.1007/978-3-031-17834-4_14
